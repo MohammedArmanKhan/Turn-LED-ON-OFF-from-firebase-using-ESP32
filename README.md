@@ -8,5 +8,4 @@ Then open (Boards Manager) window from (Tools) tab and there type "ESP32" and in
 
 Now to use the IOXhop_FirebaseESP32-master library you will need the ArduinoJson-v5.13.3.zip library and ArduinoJson-v5.13.3.h in your project's folder.
 
-Then just go to Firebase website and open a project. After that. creat a databese. In the realtime database you will find the URL for the arduino code and you will find the database auth key from (Project Settings)>(Service Accounts)>(Database Secrets).
-In the realtime database type the value as "ON/OFF" and your done. :D
+Then just go to Firebase website and open a project. After that. creat a database. In the realtime database you will find the URL for the arduino code copy it without any slashes and you will find the database auth key from (Project Settings)>(Service Accounts)>(Database Secrets) paste it in the arduino code. In the arduino code type your wifi name and password. In the code change Firebase.setString(); and Firebase.getString(); to the realtime string data which have auto genarated. you and create new data too i.e: "LED_STATUS". Finnaly, in the realtime database type the value as "ON/OFF" and your done. :D
