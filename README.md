@@ -2,6 +2,9 @@
 
 Here I have shared the arduino code and the libraries you will need to do this project.
 
+Components: ESP32, LED, Jumper Wire, Bread Board, Good data cable.
+In bread board connect the LED's long pin to ESP32's pin2 and LED's short pin to ESP32's GND.
+
 To install the ESP32 Board open your preferences press Ctrl+Comma or go to (File) tab and click on (Preferences). There in the additional boards manager URLs paste this URLs: 
 https://dl.espressif.com/dl/package_esp32_index.json, http://arduino.esp8266.com/stable/package_esp8266com_index.json
 Then open (Boards Manager) window from (Tools) tab and there type "ESP32" and install the software.
